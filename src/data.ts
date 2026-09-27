@@ -141,8 +141,8 @@ export const DEFAULT_EVENTS: Event[] = [
 export const DEFAULT_NEWS: NewsItem[] = [
   {
     id: '1',
-    title: 'Flávio Araújo TV expande cobertura para novos territórios baianos',
-    excerpt: 'A emissora anuncia parceria com comunidades do Sertão e do Extremo Sul para ampliar a representatividade territorial.',
+    title: 'Bahia Play expande cobertura para novos territórios baianos',
+    excerpt: 'A plataforma anuncia parceria com comunidades do Sertão e do Extremo Sul para ampliar a representatividade territorial.',
     category: 'Institucional',
     date: '2026-06-18',
   },
@@ -163,7 +163,7 @@ export const DEFAULT_NEWS: NewsItem[] = [
   {
     id: '4',
     title: 'Cobertura ao vivo: São João nos territórios baianos',
-    excerpt: 'A emissora realizou transmissão simultânea de quadrilhas e forró de 12 municípios durante o São João 2026.',
+    excerpt: 'A plataforma realizou transmissão simultânea de quadrilhas e forró de 12 municípios durante o São João 2026.',
     category: 'Cobertura Especial',
     date: '2026-06-05',
   },
