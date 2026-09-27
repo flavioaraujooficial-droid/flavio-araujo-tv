@@ -12,9 +12,14 @@ export default function Footer() {
                 <div className="absolute inset-0 bg-gradient-to-br from-[#1019D6] via-[#4B168D] to-[#D9150B]" />
                 <Tv className="relative z-10 text-white w-5 h-5" />
               </div>
-              <span className="text-white font-bold text-lg">
-                Flávio Araújo<span className="text-[#1019D6]"> TV</span>
-              </span>
+              <div className="flex flex-col">
+                <span className="text-white font-bold text-base tracking-tight leading-none">
+                  Bahia<span className="text-[#1019D6]"> Fácil</span>
+                </span>
+                <span className="text-xs font-medium tracking-wider text-slate-300 uppercase mt-0.5">
+                  Bahia<span className="text-[#D9150B]"> Play</span>
+                </span>
+              </div>
             </div>
             <p className="text-slate-400 text-sm leading-relaxed max-w-xs">
               Mídia digital territorial da Bahia. Conectando os 27 territórios
@@ -51,7 +56,7 @@ export default function Footer() {
               </li>
               <li className="flex items-center gap-2 text-slate-400 text-sm">
                 <Mail className="w-4 h-4 text-[#1019D6] flex-shrink-0" />
-                contato@flavioaraujo.tv
+                contato@bahiafacil.com.br
               </li>
             </ul>
           </div>
@@ -59,7 +64,7 @@ export default function Footer() {
 
         <div className="pt-6 border-t border-white/[0.05] flex flex-col sm:flex-row items-center justify-between gap-3">
           <p className="text-slate-600 text-xs">
-            © 2026 Flávio Araújo TV. Todos os direitos reservados.
+            © 2026 Bahia Fácil | Bahia Play. Todos os direitos reservados.
           </p>
           <p className="text-slate-700 text-xs">
             Mídia digital territorial da Bahia
@@ -69,3 +74,4 @@ export default function Footer() {
     </footer>
   );
 }
+  
